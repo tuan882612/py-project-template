@@ -20,7 +20,7 @@ class DataProcessor:
                 for line in f:
                     key, value = line.strip().split(" ")
                     self.content[key] = int(value)
-                
+
         except:
             logging.critical(f"Error processing file {file_path}", exc_info=True)
             exit(1)
