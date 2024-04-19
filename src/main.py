@@ -6,7 +6,7 @@ from data_processor import DataProcessor
 def main() -> None:
     proccessor = DataProcessor()
     proccessor.process_file("data/sample.txt")
-    logging.INFO(f"proccessed content: {proccessor.content}")
+    logging.info(f"proccessed content: {proccessor.content}")
 
 
 if __name__ == "__main__":
